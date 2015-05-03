@@ -38772,3 +38772,1225 @@ NoMethodError (undefined method `[]' for nil:NilClass):
   Rendered /Users/elabittersweet/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
   Rendered /Users/elabittersweet/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
   Rendered /Users/elabittersweet/.rvm/gems/ruby-2.1.3/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (37.5ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 12:03:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 5911ms (Views: 5896.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 12:03:55 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:56 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:57 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:57 +0000
+
+
+Started GET "/assets/application-e448d62182b552a4d54b8682372a068c.js?body=1" for 119.95.32.191 at 2015-05-03 12:03:57 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 12:03:59 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 12:04:01 +0000
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 12:05:09 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 339ms (Views: 336.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/members" for 119.95.32.191 at 2015-05-03 12:05:12 +0000
+Processing by UpAriseController#Members as HTML
+  Rendered up_arise/Members.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 314ms (Views: 312.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 119.95.32.191 at 2015-05-03 12:05:14 +0000
+Processing by UpAriseController#Events as HTML
+  Rendered up_arise/Events.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 303ms (Views: 302.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 119.95.32.191 at 2015-05-03 12:05:16 +0000
+Processing by UpAriseController#Contact as HTML
+  Rendered up_arise/Contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 308ms (Views: 305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.95.32.191 at 2015-05-03 12:05:17 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (53.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 403ms (Views: 401.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 12:05:24 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 378ms (Views: 376.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 119.95.32.191 at 2015-05-03 12:18:40 +0000
+Processing by UpAriseController#Events as HTML
+  Rendered up_arise/Events.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 312ms (Views: 308.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 12:18:47 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 363ms (Views: 361.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 13:01:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 513ms (Views: 493.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 13:03:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (69.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1191ms (Views: 1176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 13:03:01 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 13:03:02 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 13:03:02 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 13:03:02 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 13:03:05 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:03:07 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 13:03:07 +0000
+
+
+Started GET "/articles/" for 119.95.32.191 at 2015-05-03 13:03:09 +0000
+
+AbstractController::ActionNotFound (The action 'index' could not be found for ArticlesController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:03:14 +0000
+
+AbstractController::ActionNotFound (The action 'new' could not be found for ArticlesController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:03:41 +0000
+
+AbstractController::ActionNotFound (The action 'new' could not be found for ArticlesController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (1.2ms)
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:05:31 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 321ms (Views: 318.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 13:05:32 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 13:05:32 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 13:05:32 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 13:05:33 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 13:05:34 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 13:05:34 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:05:43 +0000
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:08:09 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 558ms (Views: 555.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:08:11 +0000
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 13:08:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 636ms (Views: 620.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:08:43 +0000
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:08:47 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (33.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 357ms (Views: 355.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:08:48 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateArticles (20150503133514)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150503133514"]]
+  [1m[36m (19.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 13:56:21 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (69.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 679ms (Views: 661.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:56:22 +0000
+
+
+Started GET "/articles/show" for 119.95.32.191 at 2015-05-03 13:56:26 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 25ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=show):
+  app/controllers/articles_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (73.3ms)
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 13:56:31 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 350ms (Views: 348.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:56:32 +0000
+
+
+Started POST "/articles" for 119.95.32.191 at 2015-05-03 13:56:56 +0000
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NLreRW8NkI3Bv6XsK8Uzs4XdG+z51zOHgKFtf3rFkCSNUzp3Lc33+nayHsS7OMzKwHTkEIerkcjg/iF3Td+b6w==", "article"=>{"title"=>"Hello", "text"=>"world!"}, "commit"=>"Save Article"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Hello"], ["text", "world!"], ["created_at", "2015-05-03 13:56:56.051649"], ["updated_at", "2015-05-03 13:56:56.051649"]]
+  [1m[36m (12.9ms)[0m  [1mcommit transaction[0m
+Redirected to https://arise-markasiddao.c9.io/articles/1
+Completed 302 Found in 33ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/articles/1" for 119.95.32.191 at 2015-05-03 13:56:56 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 234ms (Views: 231.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 13:56:57 +0000
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 14:10:32 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#new as HTML
+  Rendered articles/new.html.erb within layouts/application (54.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 737ms (Views: 723.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:10:33 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 14:10:36 +0000
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:15: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/ubuntu/workspace/app/views/articles/index.html.erb:17: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/articles/index.html.erb:15: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/articles/index.html.erb:17: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (69.6ms)
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 14:11:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 698ms (Views: 680.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:12:01 +0000
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:27:28 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (48.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 481ms (Views: 478.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:27:29 +0000
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:34:22 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 704ms (Views: 686.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:34:23 +0000
+
+
+Started GET "/articles/index" for 119.95.32.191 at 2015-05-03 14:34:30 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 23ms
+
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=index):
+  app/controllers/articles_controller.rb:16:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.5@rails4/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (83.7ms)
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 14:34:37 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 409ms (Views: 407.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:34:38 +0000
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:37:58 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 393ms (Views: 390.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:38:11 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 328ms (Views: 326.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 14:38:13 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 279ms (Views: 278.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/members" for 119.95.32.191 at 2015-05-03 14:38:16 +0000
+Processing by UpAriseController#Members as HTML
+  Rendered up_arise/Members.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 256ms (Views: 255.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:38:18 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (64.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 273ms (Views: 271.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 14:38:20 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 209ms (Views: 208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/members" for 119.95.32.191 at 2015-05-03 14:38:22 +0000
+Processing by UpAriseController#Members as HTML
+  Rendered up_arise/Members.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 267ms (Views: 265.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 119.95.32.191 at 2015-05-03 14:38:24 +0000
+Processing by UpAriseController#Events as HTML
+  Rendered up_arise/Events.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 239ms (Views: 237.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:44:41 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 396ms (Views: 393.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 14:44:42 +0000
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 14:44:45 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 230ms (Views: 228.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/members" for 119.95.32.191 at 2015-05-03 14:44:47 +0000
+Processing by UpAriseController#Members as HTML
+  Rendered up_arise/Members.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 220ms (Views: 218.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 119.95.32.191 at 2015-05-03 14:44:49 +0000
+Processing by UpAriseController#Events as HTML
+  Rendered up_arise/Events.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 277ms (Views: 276.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 119.95.32.191 at 2015-05-03 14:44:50 +0000
+Processing by UpAriseController#Contact as HTML
+  Rendered up_arise/Contact.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 311ms (Views: 308.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 119.95.32.191 at 2015-05-03 14:44:51 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (44.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 356ms (Views: 355.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 14:44:55 +0000
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 218ms (Views: 217.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 15:00:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 630ms (Views: 616.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:00:40 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:00:43 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (20.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 383ms (Views: 378.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/about" for 119.95.32.191 at 2015-05-03 15:04:44 +0000
+Processing by UpAriseController#About as HTML
+  Rendered up_arise/About.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 513ms (Views: 510.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.95.32.191 at 2015-05-03 15:48:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UpAriseController#Home as HTML
+  Rendered up_arise/Home.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 839ms (Views: 810.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:12 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:12 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:12 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 15:48:13 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:48:14 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:48:16 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 369ms (Views: 363.2ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/articles/1" for 119.95.32.191 at 2015-05-03 15:48:24 +0000
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CL25v5msbuhC0mHEgjd1QxkEMERrynEE+2IkiP/cPzWxVF2N22wJn/Xf2uwSyoo6XK3PuBW200ubPWiAyMY0+g==", "id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 1]]
+  [1m[35m (10.7ms)[0m  commit transaction
+Redirected to https://arise-markasiddao.c9.io/articles
+Completed 302 Found in 41ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:48:24 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 333ms (Views: 331.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:25 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:26 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:26 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:26 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 15:48:26 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:48:26 +0000
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 15:48:29 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (42.5ms)
+  Rendered articles/new.html.erb within layouts/application (46.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 409ms (Views: 406.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 119.95.32.191 at 2015-05-03 15:48:48 +0000
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaIgFa1GPrgloJ/SSROEOCAAWSUOA0rkseObFQEv1wSMS8Qn74ZZz5KtJPrZ7ntBZamm2XB/6KvRvNcdNjXcyw==", "article"=>{"title"=>"Hi there", "text"=>"My name is\r\nMy name is\r\nMy name is\r\nSlim Shady"}, "commit"=>"Create Article"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Hi there"], ["text", "My name is\r\nMy name is\r\nMy name is\r\nSlim Shady"], ["created_at", "2015-05-03 15:48:48.170121"], ["updated_at", "2015-05-03 15:48:48.170121"]]
+  [1m[35m (27.0ms)[0m  commit transaction
+Redirected to https://arise-markasiddao.c9.io/articles/2
+Completed 302 Found in 37ms (ActiveRecord: 28.1ms)
+
+
+Started GET "/articles/2" for 119.95.32.191 at 2015-05-03 15:48:48 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 252ms (Views: 249.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 15:48:49 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:48:50 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:48:59 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 409ms (Views: 406.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 119.95.32.191 at 2015-05-03 15:49:05 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (4.5ms)
+  Rendered articles/new.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 311ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 119.95.32.191 at 2015-05-03 15:49:14 +0000
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SIbKSShO565xBmWI4XxigbSD+x1yCUnGn9PXDm3veUHxby57ao6A2cYL3qBxgZ348SoE4Qx164n/jJsGWvVyjg==", "article"=>{"title"=>"Hello!!!", "text"=>"WORLD!!!"}, "commit"=>"Create Article"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("title", "text", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Hello!!!"], ["text", "WORLD!!!"], ["created_at", "2015-05-03 15:49:14.848374"], ["updated_at", "2015-05-03 15:49:14.848374"]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://arise-markasiddao.c9.io/articles/3
+Completed 302 Found in 19ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/articles/3" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mArticle Load (0.4ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 323ms (Views: 320.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:15 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:49:16 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:49:19 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.4ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 410ms (Views: 407.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/2" for 119.95.32.191 at 2015-05-03 15:49:44 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 359ms (Views: 355.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2/edit" for 119.95.32.191 at 2015-05-03 15:49:47 +0000
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/_form.html.erb (4.6ms)
+  Rendered articles/edit.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 331ms (Views: 328.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/articles/2" for 119.95.32.191 at 2015-05-03 15:49:50 +0000
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pHET4Ax0WSrt3B3GUjIjC4uPknJWfr0kol6XyOlxKh4dmPfSTrQ+XVrRpu7Cz9xyziZtjigCH2vCAdvA3msh0Q==", "article"=>{"title"=>"Hi there", "text"=>"My name is\r\nMy name is\r\nMy name is\r\nSlim Shady"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to https://arise-markasiddao.c9.io/articles/2
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/2" for 119.95.32.191 at 2015-05-03 15:49:50 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 413ms (Views: 411.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/articles-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/custom-dab867780703880b4b3702981d6f8376.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/up_arise-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/application-4cc3fdf77552cb6df791cd632d744375.css?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/bootstrap-52ddc9e5c6743cc001357411d58d99c0.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/turbolinks-d9dcd5206ee131f11181e8ca09537148.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/articles-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/up_arise-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:51 +0000
+
+
+Started GET "/assets/application-f72b8f5a6b526ac6ef3c1ce9ee301e7c.js?body=1" for 119.95.32.191 at 2015-05-03 15:49:52 +0000
+
+
+Started GET "/assets/test_img-ee8afa429b3229ea2a1595879403e1e2.jpg" for 119.95.32.191 at 2015-05-03 15:49:52 +0000
+
+
+Started GET "/assets/ARISE_members.jpg" for 119.95.32.191 at 2015-05-03 15:49:52 +0000
+
+
+Started GET "/articles" for 119.95.32.191 at 2015-05-03 15:49:54 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 354ms (Views: 352.2ms | ActiveRecord: 0.4ms)
