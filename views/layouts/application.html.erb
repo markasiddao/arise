@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
+</head>
+<body>
+	<%= render 'layouts/header' %>
+	<% flash.each do |message_type, message| %>
+        <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <% end %>
+	<div class="container">
+		<%= yield %>
+		<%= render 'layouts/footer' %>
+		<%= debug(params) if Rails.env.development?%>
+	</div>
+	<div class="container-fluid bg-img correct-height"><h1>WE ARE LEADERSHIP BY INFLUENCE</h1></div>
+	<div class="container-fluid bg-info correct-height">
+		<div class="col-xs-4 center-block" style="text-align: center">
+		    President
+		</div>
+		<div class="col-xs-4 center-block" style="text-align: center">
+		    Vice President
+		</div>
+		<div class="col-xs-4 center-block" style="text-align: center">
+		    Members
+		</div>
+	</div>
+	<div> <%= image_tag("test_img.jpg", :class => "img") %></div>
+</body>
+</html>

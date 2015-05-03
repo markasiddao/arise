@@ -1,0 +1,22 @@
+<li>
+  <%= gravatar_for user, size: 50 %>
+  <%= link_to user.name, user %>
+  <% if current_user.user_role == "Admin" && !current_user?(user) %>
+    | <%= link_to "delete", user, method: :delete,
+                                  data: { confirm: "You sure?" } %>
+  
+  
+  <br><br><br>
+  
+  <div class="col-md-6 col-md-offset-3">
+		<%= form_for(user) do |f| %>
+			<%= f.label user.user_role, class: 'form-control'%>
+			<div class = "controls">
+				<%= f.select(:user_role, options_for_select([['Admin', 'Admin'], ['Editor', 'Editor'], ['Member', 'Member']]), {}, :prompt=> 'Select', class: "form-control") %>
+			</div>
+      		<%= f.submit "Save changes", class: "btn btn-primary" %>
+    	<% end %>
+  </div> 
+  <% end %>
+  
+</li>
